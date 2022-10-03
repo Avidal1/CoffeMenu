@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(main_body_background.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 600px;
+    height: 750px;
+    background-color: burlywood;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contentStyle{
+    margin: auto;
+    width: 90%;
+}
+
+#title{
+    height: 20%;
+    background-color: transparent;
+    text-align: center;
+    border-bottom: 5px solid rgba(129, 3, 3, 0.555);
+}
+
+#title h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-weight: bold;
+    line-height: 80px;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+#title h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+
+                            /* Title End, Coffee Menu Starts! */
+#introducing_content{
+    height: 100px;
+    background-color: transparent;
+}
+
+#introducing_content h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+}
+
+#menu{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    border-bottom: 5px solid rgba(129, 3, 3, 0.555);
+}
+
+.item_wrapper{
+    width: 100%;
+    height: 30px;
+}
+
+.left_item{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    text-align: left;
+    float: left;
+}
+
+.right_item{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    float: left;
+    background-color: transparent;
+}
+
+                                    /* Coffee Menu ends, Dessert Menu Starts! */
+#introducing_content_2{
+    height: 100px;
+    background-color: transparent;
+}
+
+#introducing_content_2 h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+}
+
+                                    /* Image Center for icons */
+.image_center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    line-height: 50px;
+}
+
